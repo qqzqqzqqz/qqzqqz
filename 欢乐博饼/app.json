@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/zhuye/index",
+    "pages/ranklist/index",
+    "pages/game_page/index",
+    "pages/set_person_name/index",
+    "pages/game_set/index",
+    "pages/set/index",
+    "pages/set_award/index",
+    "pages/set_person_cnt/index",
+    "pages/set_game/index",
+    "pages/games/index",
+    "pages/yx/yx",
+    "pages/game_start_page/index",
+    "pages/help/index",
+    "pages/game_count/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "欢乐博饼"
+  },
+  "sitemapLocation": "sitemap.json"
+}

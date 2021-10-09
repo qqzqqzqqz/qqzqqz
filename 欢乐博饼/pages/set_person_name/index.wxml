@@ -1,0 +1,55 @@
+<!--pages/set_person_name/index.wxml-->
+<image class="bg-image" mode="scaleToFill" src="/images/b1.jpg"></image>
+<view class='peple_column'>
+  <view class="peple_row">
+    <text style="font-size: 35rpx;padding-left: 5%;color:red;">请输入玩家一昵称:</text>
+    <input type="text"  style="color: darkgray;" placeholder="请输入昵称" bindinput="nameinput" style="width: 30%;font-size: 35rpx;"></input>
+    <button bindtap="addinfo" style="background-color:darkgoldenrod;width: 20%;font-size: 30rpx;">确定</button>
+  </view>
+  <view class="peple_row">
+    <text style="font-size: 35rpx;padding-left: 5%;color:red;">请输入玩家二昵称:</text>
+    <input type="text"  style="color: darkgray;" placeholder="请输入昵称" bindinput="nameinput" style="width: 30%;font-size: 35rpx;"></input>
+    <button bindtap="addinfo" style="background-color:darkgoldenrod;width: 20%;font-size: 30rpx;">确定</button>
+  </view>
+  <view class="peple_row">
+    <text style="font-size: 35rpx;padding-left: 5%;color:red;">请输入玩家三昵称:</text>
+    <input type="text"  style="color: darkgray;" placeholder="请输入昵称" bindinput="nameinput" style="width: 30%;font-size: 35rpx;"></input>
+    <button bindtap="addinfo" style="background-color:darkgoldenrod;width: 20%;font-size: 30rpx;">确定</button>
+  </view>
+  <view class="peple_row">
+    <text style="font-size: 35rpx;padding-left: 5%;color:red;">请输入玩家四昵称:</text>
+    <input type="text"  style="color: darkgray;" placeholder="请输入昵称" bindinput="nameinput" style="width: 30%;font-size: 35rpx;"></input>
+    <button bindtap="addinfo" style="background-color:darkgoldenrod;width: 20%;font-size: 30rpx;">确定</button>
+  </view>
+  <view class="peple_row">
+    <text style="font-size: 35rpx;padding-left: 5%;color:red;">请输入玩家五昵称:</text>
+    <input type="text"  style="color: darkgray;" placeholder="请输入昵称" bindinput="nameinput" style="width: 30%;font-size: 35rpx;"></input>
+    <button bindtap="addinfo" style="background-color:darkgoldenrod;width: 20%;font-size: 30rpx;">确定</button>
+  </view>
+  <view class="peple_row">
+    <text style="font-size: 35rpx;padding-left: 5%;color:red;">请输入玩家六昵称:</text>
+    <input type="text"  style="color: darkgray;" placeholder="请输入昵称" bindinput="nameinput" style="width: 30%;font-size: 35rpx;"></input>
+    <button bindtap="addinfo" style="background-color:darkgoldenrod;width: 20%;font-size: 30rpx;">确定</button>
+  </view>
+  <view class="peple_row">
+    <text style="font-size: 35rpx;padding-left: 5%;color:red;">请输入玩家七昵称:</text>
+    <input type="text"  style="color: darkgray;" placeholder="请输入昵称" bindinput="nameinput" style="width: 30%;font-size: 35rpx;"></input>
+    <button bindtap="addinfo" style="background-color:darkgoldenrod;width: 20%;font-size: 30rpx;">确定</button>
+  </view>
+  <view class="peple_row">
+    <text style="font-size: 35rpx;padding-left: 5%;color:red;">请输入玩家八昵称:</text>
+    <input type="text"  style="color: darkgray;" placeholder="请输入昵称" bindinput="nameinput" style="width: 30%;font-size: 35rpx;"></input>
+    <button bindtap="addinfo" style="background-color:darkgoldenrod;width: 20%;font-size: 30rpx;">确定</button>
+  </view>
+  <view class="peple_row">
+    <text style="font-size: 35rpx;padding-left: 5%;color:red;">请输入玩家九昵称:</text>
+    <input type="text"  style="color: darkgray;" placeholder="请输入昵称" bindinput="nameinput" style="width: 30%;font-size: 35rpx;"></input>
+    <button bindtap="addinfo" style="background-color:darkgoldenrod;width: 20%;font-size: 30rpx;">确定</button>
+  </view>
+  <view class="peple_row">
+    <text style="font-size: 35rpx;padding-left: 5%;color:red;">请输入玩家十昵称:</text>
+    <input type="text"  style="color: darkgray;" placeholder="请输入昵称" bindinput="nameinput" style="width: 30%;font-size: 35rpx;"></input>
+    <button bindtap="addinfo" style="background-color:darkgoldenrod;width: 20%;font-size: 30rpx;">确定</button>
+  </view>
+  <button bindtap="accomplish" style="width: 40%;background-color:darkgoldenrod;margin-bottom: 3%;font-size: 40rpx;">完成</button>
+</view>

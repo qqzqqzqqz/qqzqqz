@@ -1,0 +1,2 @@
+<input type="number" placeholder="请输入人数:" bindinput="nameinput"></input>
+<button bindtap="addinfo">确定</button>

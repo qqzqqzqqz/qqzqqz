@@ -1,0 +1,13 @@
+/* pages/index/index.wxss */
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.button1{
+  margin-bottom: 80rpx;
+  background-color:darkgoldenrod;
+}
+

@@ -1,0 +1,12 @@
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.button1{
+  margin-bottom: 60rpx;
+  border-radius: 25rpx;
+  background-color:darkgoldenrod;
+}

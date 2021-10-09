@@ -1,0 +1,6 @@
+<image class="bg-image" mode="scaleToFill" src="/images/b1.jpg"></image>
+<view style="display: flex;flex-direction: row;">
+<text style="font-size: 40rpx;padding-top: 60%;padding-left: 10%;">请输入玩家人数:</text>
+<input type="number" placeholder="输入十以内的数" bindinput="nameinput" style="padding-top: 60%;width: 35%;"></input>
+</view>
+<button bindtap='jumpPage' style="margin-top:10%;width: 40%;background-color:darkgoldenrod;">确定</button>

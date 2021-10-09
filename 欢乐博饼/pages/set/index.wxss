@@ -1,0 +1,15 @@
+/* pages/index3/index.wxss */
+.set0{
+  display: flex;
+}
+.set1{
+  margin-left: 5%;
+  margin-top: 55%;
+  font-size: 50rpx;
+  color: blueviolet;
+ 
+}
+.set2{
+  width: 300rpx;
+  margin-top: 56%;
+}

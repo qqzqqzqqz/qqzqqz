@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<view class='container'>
+  <image class="bg-image" mode="scaleToFill" src="/images/b1.jpg"></image>
+  <view>
+    <button bindtap='jumpPage1' class='button1'>多人博饼</button>
+    <button bindtap='jumpPage2' class='button1'>设置</button>
+    <button bindtap='jumpPage3' class='button1'>帮助</button>
+  </view>
+</view>

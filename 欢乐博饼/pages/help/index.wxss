@@ -1,0 +1,15 @@
+/* pages/index2/index.wxss */
+.title4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:chocolate;
+  padding-top: 50px;
+  font-size: 70rpx;
+}
+.passage4{
+  display: flex;
+  margin:10%;
+  margin-top: 6%;
+  color:coral;
+}

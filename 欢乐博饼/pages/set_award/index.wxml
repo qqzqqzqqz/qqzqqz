@@ -1,0 +1,37 @@
+<!--pages/set_award/index.wxml-->
+<image class="bg-image" mode="scaleToFill" src="/images/b1.jpg"></image>
+<view class='award_column'>
+  <text style="font-size:47px;color:chocolate;margin-top:70rpx;margin-bottom: 100rpx;">奖励设置</text>
+  <view class="award_row">
+    <text style="font-size: 40rpx;padding-left: 5%;color:fuchsia;">状元:</text>
+    <input type="text"  style="color: darkgray;" placeholder="请输入奖品" bindinput="awardinput1" style="width: 30%;font-size: 40rpx;padding-left: 5%;">
+    </input>
+    <button bindtap="addinfo1" style="background-color:darkgoldenrod;width: 30%;font-size: 30rpx;">确定</button>
+  </view>
+  <view class="award_row">
+    <text style="font-size: 40rpx;padding-left: 5%;color:fuchsia;">榜眼:</text>
+    <input type="text"  style="color: darkgray;" placeholder="请输入奖品" bindinput="awardinput2" style="width: 30%;font-size: 40rpx;padding-left: 5%;"></input>
+    <button bindtap="addinfo2" style="background-color:darkgoldenrod;width: 30%;font-size: 30rpx;">确定</button>
+  </view>
+  <view class="award_row">
+    <text style="font-size: 40rpx;padding-left: 5%;color:fuchsia;">探花:</text>
+    <input type="text"  style="color: darkgray;" placeholder="请输入奖品" bindinput="awardinput3" style="width: 30%;font-size: 40rpx;padding-left: 5%;"></input>
+    <button bindtap="addinfo3" style="background-color:darkgoldenrod;width: 30%;font-size: 30rpx;">确定</button>
+  </view>
+  <view class="award_row">
+    <text style="font-size: 40rpx;padding-left: 5%;color:fuchsia;">进士:</text>
+    <input type="text"  style="color: darkgray;" placeholder="请输入奖品" bindinput="awardinput4" style="width: 30%;font-size: 40rpx;padding-left: 5%;"></input>
+    <button bindtap="addinfo4" style="background-color:darkgoldenrod;width: 30%;font-size: 30rpx;">确定</button>
+  </view>
+  <view class="award_row">
+    <text style="font-size: 40rpx;padding-left: 5%;color:fuchsia;">举人:</text>
+    <input type="text"  style="color: darkgray;" placeholder="请输入奖品" bindinput="awardinput5" style="width: 30%;font-size: 40rpx;padding-left: 5%;"></input>
+    <button bindtap="addinfo5" style="background-color:darkgoldenrod;width: 30%;font-size: 30rpx;">确定</button>
+  </view>
+  <view class="award_row">
+    <text style="font-size: 40rpx;padding-left: 5%;color:fuchsia;">秀才:</text>
+    <input type="text"  style="color: darkgray;" placeholder="请输入奖品" bindinput="awardinput6" style="width: 30%;font-size: 40rpx;padding-left: 5%;"></input>
+    <button bindtap="addinfo6" style="background-color:darkgoldenrod;width: 30%;font-size: 30rpx;">确定</button>
+  </view>
+  <button bindtap="accomplish" style="width: 40%;background-color:darkgoldenrod;margin-bottom: 3%;font-size: 50rpx;margin-top: 50rpx;">完成</button>
+</view>

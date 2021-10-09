@@ -1,0 +1,11 @@
+<!--pages/index5/index.wxml-->
+<view class='container'>
+  <image class="bg-image" mode="scaleToFill" src="/images/b1.jpg"></image>
+  <text style="font-size:50px;color:chocolate;">多人博饼</text>
+  <view>
+    <button bindtap='jumpPage1' class='button1'>游戏设置</button>
+    <button bindtap='jumpPage2' class='button1'>开始游戏</button>
+    <button bindtap='jumpPage4' class='button1'>获奖情况</button>
+    <button bindtap='jumpPage3' class='button1'>返回</button>
+  </view>
+</view>

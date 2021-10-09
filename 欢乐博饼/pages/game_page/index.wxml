@@ -1,0 +1,21 @@
+<view class='container'>
+  <image class="bg-image" mode="scaleToFill" src="/images/b1.jpg"></image>
+  <view class='place0'>
+  <text style="font-size: 60rpx;margin-bottom: 3%;color: red;">当前博饼人员:{{user[temp%cnt1].name}}</text>
+  <text style="font-size: 60rpx;margin-bottom: 3%;color: red;">还差几个到你:{{cnt1-temp%cnt1}}</text>
+  <text style="font-size: 60rpx;color: red;">剩余游戏轮数:{{round}}</text>
+</view>
+  <view class='place1'>
+    <view class='place2'>
+    <view><image src="/images/{{value[0]}}.png" class="touzi"></image></view>
+    <view><image src="/images/{{value[1]}}.png" class="touzi"></image></view>
+    <view><image src="/images/{{value[2]}}.png" class="touzi"></image></view>
+    </view>
+    <view class="place2">
+    <view><image src="/images/{{value[3]}}.png" class="touzi"></image></view>
+    <view><image src="/images/{{value[4]}}.png" class="touzi"></image></view>
+    <view><image src="/images/{{value[5]}}.png" class="touzi"></image></view>
+    </view>
+  </view>
+  <button  bindtap="start" class='button1'>搏一博</button>
+</view>
